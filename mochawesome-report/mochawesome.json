@@ -2,14 +2,14 @@
   "stats": {
     "suites": 2,
     "tests": 2,
-    "passes": 0,
+    "passes": 2,
     "pending": 0,
-    "failures": 2,
-    "start": "2022-02-12T09:10:29.036Z",
-    "end": "2022-02-12T09:10:29.043Z",
-    "duration": 7,
+    "failures": 0,
+    "start": "2022-02-12T09:17:08.575Z",
+    "end": "2022-02-12T09:17:08.583Z",
+    "duration": 8,
     "testsRegistered": 2,
-    "passPercent": 0,
+    "passPercent": 100,
     "pendingPercent": 0,
     "other": 0,
     "hasOther": false,
@@ -18,7 +18,7 @@
   },
   "results": [
     {
-      "uuid": "4385806e-8fce-4424-a00c-b75b220bd969",
+      "uuid": "1d134d1f-2047-402c-939e-06c3f363ff34",
       "title": "",
       "fullFile": "",
       "file": "",
@@ -27,7 +27,7 @@
       "tests": [],
       "suites": [
         {
-          "uuid": "69995b6d-38a3-4829-8dc6-ba8234bdd8d5",
+          "uuid": "e5f73e0c-4260-4eb9-bab5-2db20e175ce5",
           "title": "test 1 ordena noms",
           "fullFile": "/home/knna/examenPPS/PPS_examen_js/test/examen.spec.js",
           "file": "/test/examen.spec.js",
@@ -39,29 +39,25 @@
               "fullTitle": "test 1 ordena noms case 01",
               "timedOut": false,
               "duration": 2,
-              "state": "failed",
-              "speed": null,
-              "pass": false,
-              "fail": true,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
               "pending": false,
               "context": null,
               "code": "expect(o1.ordena_noms(students)).to.eql(ordenaNoms);",
-              "err": {
-                "message": "AssertionError: expected undefined to deeply equal [ { alumne: 'Juan Gris', …(1) }, …(5) ]",
-                "estack": "AssertionError: expected undefined to deeply equal [ { alumne: 'Juan Gris', …(1) }, …(5) ]\n    at Context.it (test/examen.spec.js:40:41)",
-                "diff": null
-              },
-              "uuid": "56defad0-898c-4ea2-b328-a754bbd6920c",
-              "parentUUID": "69995b6d-38a3-4829-8dc6-ba8234bdd8d5",
+              "err": {},
+              "uuid": "6e830aa0-e7bc-4548-bfdc-818bab2fd30f",
+              "parentUUID": "e5f73e0c-4260-4eb9-bab5-2db20e175ce5",
               "isHook": false,
               "skipped": false
             }
           ],
           "suites": [],
-          "passes": [],
-          "failures": [
-            "56defad0-898c-4ea2-b328-a754bbd6920c"
+          "passes": [
+            "6e830aa0-e7bc-4548-bfdc-818bab2fd30f"
           ],
+          "failures": [],
           "pending": [],
           "skipped": [],
           "duration": 2,
@@ -70,7 +66,7 @@
           "_timeout": 2000
         },
         {
-          "uuid": "74f6e9fa-2572-4348-88bd-ab5619df7d67",
+          "uuid": "6aebbea8-6f3c-44f3-8106-f4d7277b6739",
           "title": "Test 2 ordena dates",
           "fullFile": "/home/knna/examenPPS/PPS_examen_js/test/examen.spec.js",
           "file": "/test/examen.spec.js",
@@ -81,33 +77,29 @@
               "title": "case 02",
               "fullTitle": "Test 2 ordena dates case 02",
               "timedOut": false,
-              "duration": 0,
-              "state": "failed",
-              "speed": null,
-              "pass": false,
-              "fail": true,
+              "duration": 3,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
               "pending": false,
               "context": null,
               "code": "expect(o2.ordena_dates(students)).to.eql(ordenaDates);",
-              "err": {
-                "message": "ReferenceError: sortedArray is not defined",
-                "estack": "ReferenceError: sortedArray is not defined\n    at Ordena.ordena_dates (examen.js:12:5)\n    at Context.it (test/examen.spec.js:46:15)",
-                "diff": null
-              },
-              "uuid": "37755143-a395-4143-acaa-6a9df4b5c479",
-              "parentUUID": "74f6e9fa-2572-4348-88bd-ab5619df7d67",
+              "err": {},
+              "uuid": "a5d9f7c2-3c56-4881-a066-0f9e7eda0b01",
+              "parentUUID": "6aebbea8-6f3c-44f3-8106-f4d7277b6739",
               "isHook": false,
               "skipped": false
             }
           ],
           "suites": [],
-          "passes": [],
-          "failures": [
-            "37755143-a395-4143-acaa-6a9df4b5c479"
+          "passes": [
+            "a5d9f7c2-3c56-4881-a066-0f9e7eda0b01"
           ],
+          "failures": [],
           "pending": [],
           "skipped": [],
-          "duration": 0,
+          "duration": 3,
           "root": false,
           "rootEmpty": false,
           "_timeout": 2000
