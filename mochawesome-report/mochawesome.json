@@ -5,8 +5,8 @@
     "passes": 0,
     "pending": 0,
     "failures": 2,
-    "start": "2022-02-12T09:04:50.268Z",
-    "end": "2022-02-12T09:04:50.275Z",
+    "start": "2022-02-12T09:10:29.036Z",
+    "end": "2022-02-12T09:10:29.043Z",
     "duration": 7,
     "testsRegistered": 2,
     "passPercent": 0,
@@ -18,7 +18,7 @@
   },
   "results": [
     {
-      "uuid": "2dbc9a30-43d7-4c50-a52b-0bcd2f6d864e",
+      "uuid": "4385806e-8fce-4424-a00c-b75b220bd969",
       "title": "",
       "fullFile": "",
       "file": "",
@@ -27,7 +27,7 @@
       "tests": [],
       "suites": [
         {
-          "uuid": "d9b20549-95b2-4263-bf97-2322391b6f5d",
+          "uuid": "69995b6d-38a3-4829-8dc6-ba8234bdd8d5",
           "title": "test 1 ordena noms",
           "fullFile": "/home/knna/examenPPS/PPS_examen_js/test/examen.spec.js",
           "file": "/test/examen.spec.js",
@@ -38,7 +38,7 @@
               "title": "case 01",
               "fullTitle": "test 1 ordena noms case 01",
               "timedOut": false,
-              "duration": 3,
+              "duration": 2,
               "state": "failed",
               "speed": null,
               "pass": false,
@@ -51,8 +51,8 @@
                 "estack": "AssertionError: expected undefined to deeply equal [ { alumne: 'Juan Gris', …(1) }, …(5) ]\n    at Context.it (test/examen.spec.js:40:41)",
                 "diff": null
               },
-              "uuid": "c70719ec-e4c8-4173-936f-22ae0b791eb8",
-              "parentUUID": "d9b20549-95b2-4263-bf97-2322391b6f5d",
+              "uuid": "56defad0-898c-4ea2-b328-a754bbd6920c",
+              "parentUUID": "69995b6d-38a3-4829-8dc6-ba8234bdd8d5",
               "isHook": false,
               "skipped": false
             }
@@ -60,17 +60,17 @@
           "suites": [],
           "passes": [],
           "failures": [
-            "c70719ec-e4c8-4173-936f-22ae0b791eb8"
+            "56defad0-898c-4ea2-b328-a754bbd6920c"
           ],
           "pending": [],
           "skipped": [],
-          "duration": 3,
+          "duration": 2,
           "root": false,
           "rootEmpty": false,
           "_timeout": 2000
         },
         {
-          "uuid": "85b65d73-d5c5-4a9b-a848-dc043fbc4eeb",
+          "uuid": "74f6e9fa-2572-4348-88bd-ab5619df7d67",
           "title": "Test 2 ordena dates",
           "fullFile": "/home/knna/examenPPS/PPS_examen_js/test/examen.spec.js",
           "file": "/test/examen.spec.js",
@@ -94,8 +94,8 @@
                 "estack": "ReferenceError: sortedArray is not defined\n    at Ordena.ordena_dates (examen.js:12:5)\n    at Context.it (test/examen.spec.js:46:15)",
                 "diff": null
               },
-              "uuid": "a03289a8-f531-44c8-8948-6b8faa7a2053",
-              "parentUUID": "85b65d73-d5c5-4a9b-a848-dc043fbc4eeb",
+              "uuid": "37755143-a395-4143-acaa-6a9df4b5c479",
+              "parentUUID": "74f6e9fa-2572-4348-88bd-ab5619df7d67",
               "isHook": false,
               "skipped": false
             }
@@ -103,7 +103,7 @@
           "suites": [],
           "passes": [],
           "failures": [
-            "a03289a8-f531-44c8-8948-6b8faa7a2053"
+            "37755143-a395-4143-acaa-6a9df4b5c479"
           ],
           "pending": [],
           "skipped": [],
